@@ -1,6 +1,6 @@
 # s3foo
 
-A command line utility that uploads static websites to aws s3
+push your website to s3 with a single command....
 
 ## install
 
