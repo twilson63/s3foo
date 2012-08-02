@@ -2,6 +2,6 @@
 
 var path = require('path');
 fs   = require('fs'),
-app = path.join(path.dirname(fs.realpathSync(__filename)), '../');
+app = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
 require(app);

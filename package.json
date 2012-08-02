@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "s3foo": "./bin/s3foo"
+  },
   "author": "Tom Wilson",
   "license": "MIT",
   "dependencies": {
