@@ -1,0 +1,16 @@
+{
+  "name": "s3foo",
+  "version": "0.0.2",
+  "description": "push a directory to a s3 bucket and configure as a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Wilson",
+  "license": "MIT",
+  "dependencies": {
+    "fortknox": "*",
+    "wrench": "*",
+    "prompt": "~0.2.3"
+  }
+}
