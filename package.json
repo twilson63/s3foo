@@ -1,6 +1,6 @@
 {
   "name": "s3foo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "push a directory to a s3 bucket and configure as a website",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,18 @@
     "fortknox": "*",
     "wrench": "*",
     "prompt": "~0.2.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twilson63/s3foo.git"
+  },
+  "keywords": [
+    "s3",
+    "upload",
+    "website",
+    "amazon",
+    "simple",
+    "footastic"
+  ]
 }
