@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>S3foo by twilson63</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/twilson63/s3foo">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/twilson63/s3foo/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/twilson63/s3foo/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>S3foo</h1>
+          <p>A command line app to makes it super simple to push websites to s3 hosting</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/twilson63">twilson63</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>s3foo</h1>
+
+<p>s3foo is a command-line app, that pushes contents of the current folder to a s3 bucket and enables the bucket as a website.</p>
+
+<h2>install</h2>
+
+<div class="highlight"><pre>npm install s3foo -g
+</pre></div>
+
+<h2>usage</h2>
+
+<div class="highlight"><pre><span class="nb">cd</span> <span class="o">[</span>website<span class="o">]</span>
+s3foo
+<span class="c">#prompt: bucket: myapp.w3foo.com</span>
+</pre></div>
+
+<h2>configuration</h2>
+
+<p>Make sure that you have your AMAZON_ACCESS_KEY_ID and AMAZON_SECRET_ACCESS_KEY setup as environment variables.</p>
+
+<div class="highlight"><pre><span class="nb">export </span><span class="nv">AMAZON_ACCESS_KEY_ID</span><span class="o">=</span>XXXXX
+<span class="nb">export </span><span class="nv">AMAZON_SECRET_ACCESS_KEY</span><span class="o">=</span>XXXX
+</pre></div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
