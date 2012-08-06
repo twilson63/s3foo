@@ -1,6 +1,6 @@
 # s3foo
 
-push your website to s3 with a single command....
+s3foo is a command-line app, that pushes contents of the current folder to a s3 bucket and enables the bucket as a website.
 
 ## install
 

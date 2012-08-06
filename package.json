@@ -1,7 +1,7 @@
 {
   "name": "s3foo",
-  "version": "0.0.3",
-  "description": "push a directory to a s3 bucket and configure as a website",
+  "version": "0.0.4",
+  "description": "push your website to s3 with a single command.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
